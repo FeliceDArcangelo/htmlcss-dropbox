@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5em;
+}
+
+.nav-box-1{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav-box-2{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav-box-1 a:link, .nav-box-1 a:visited, .nav-box-2 a:link, .nav-box-2 a:visited{
+    color: rgb(149, 149, 149);
+    text-decoration: none;
+}
+
+.nav-box-1 a:hover, .nav-box-2 a:hover{
+    text-decoration: underline;
+}
+
+.nav-box-2 a:last-child{
+    padding-inline: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: rgb(1, 97, 255);
+    color: white;
+}
