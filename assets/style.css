@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 1.5em;
+    padding: 1em;
+    background-color:white ;
 }
 
 .nav-box-1{
@@ -40,3 +48,66 @@ nav{
     background-color: rgb(1, 97, 255);
     color: white;
 }
+
+.header-background{
+    background-color: rgb(180, 208, 231);
+    height: 71vh;
+}
+
+h1{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-bottom: .5em;
+    font-size: 3.5rem;
+}
+
+.header-container{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.header-container div:first-child{
+    width: calc(100% / 3);
+    font-size: small;
+    line-height: 1.2rem;
+}
+
+.header-container div:first-child p{
+    padding-bottom: 2em;
+}
+
+.header-container div:first-child a{
+    padding: .7em;
+    background-color: rgb(1, 97, 255);
+    font-size: medium;
+}
+
+.header-container div:first-child a:link, .header-container div:first-child a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.header-container div:first-child a:hover{
+    box-shadow: 5px 5px 5px rgb(104, 199, 244);
+    text-decoration: underline;
+}
+
+.header-container div:first-child div{
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.header-container div:last-child{
+    width: calc(100% * 2 / 3);
+}
+
+.header-container div:last-child img{
+    width: 100%;
+}
+
+.header-container div:first-child i{
+    font-size: 2.5rem;
+}
+
