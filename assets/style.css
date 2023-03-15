@@ -266,6 +266,7 @@ hr{
 .inside-piano-4{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 4em;
     padding: 1.5em; 
 }
@@ -285,9 +286,11 @@ hr{
 }
 
 .before-piano-prova-4{
+    flex: 1 1 auto;
     width: calc((100% - 4em) / 3);
     padding-inline: 1.5em;
     padding-top: 2em;
+    min-width: 210px;
 }
 /* finish box 4 */
 /* finish main 1 */
