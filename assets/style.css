@@ -51,7 +51,6 @@ nav{
 
 .header-background{
     background-color: rgb(180, 208, 231);
-    height: 71vh;
 }
 
 h1{
@@ -105,9 +104,436 @@ h1{
 
 .header-container div:last-child img{
     width: 100%;
+    margin-bottom: -60px;
 }
 
 .header-container div:first-child i{
     font-size: 2.5rem;
 }
 
+main{
+    padding-top: 7em;
+}
+
+.main-1, .main-2, .main-3, .main-4{
+    max-width: 800px;
+    margin: auto;
+}
+
+.before-container-1{
+    line-height: 5rem;
+}
+
+.before-container-1 h2{
+    font-size: 2.5rem;
+}
+
+.before-container-1 span{
+    padding-right: 3em;
+}
+
+.before-container-1 form{
+    padding-bottom: .5em;
+}
+
+.main-container-1{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.box-1-1{
+    border: .1em solid rgb(208, 208, 211);
+    width: calc((100% - 4em) / 3);
+    height: 750px;
+}
+
+.business-profile{
+    padding: .5em;
+    text-align: center;
+    border-bottom: .1em solid rgb(208, 208, 211);
+}
+
+.inside-piano{
+    padding-inline: 1.5em;
+}
+
+.piano-price h2{
+    padding-top: 1.5em;
+    padding-bottom: .8em;
+}
+
+.piano-price div{
+    padding-bottom: .3em;
+}
+
+.piano-intermedium{
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+}
+
+.piano-intermedium div{
+    display: flex;
+    gap: .5em;
+    padding-bottom: .8em;
+}
+
+.piano-prova{
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-inline: 1.5em;
+    text-align: center;
+    background-color: rgb(1, 97, 255);
+    color: white;
+}
+
+.acquista-ora{
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+hr{
+    width: 40px;
+    border: .01em solid rgb(208, 208, 211);
+}
+
+.punti-salienti{
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-weight: 700;
+}
+
+.inside-piano ul{
+    list-style: none;
+}    
+
+.inside-piano ul li {
+    display: flex;
+    gap: .5em;
+    padding-bottom: 1em;
+}
+
+.inside-piano ul li i{
+    color: rgb(1, 97, 255);
+}
+
+.box-1-4{
+    width: 100%;
+    border: .01em solid rgb(208, 208, 211);   
+}
+
+.inside-piano-4{
+    width: 100%;
+    display: flex;
+    gap: 4em;
+    padding: 1.5em; 
+}
+
+.piano-price-4 h2{
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.piano-price-4 p{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.piano-price-4{
+    width: calc((100% - 4em) * 2 / 3);
+}
+
+.before-piano-prova-4{
+    width: calc((100% - 4em) / 3);
+    padding-inline: 1.5em;
+    padding-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-2{
+    padding-top: 7em;
+    display: flex;
+    gap: 2em;
+}
+
+.main-2 div:first-child{
+    width: calc(60% - 1em);
+    height: 400px;
+}
+
+.img-main-2{
+    width: 100%;
+}
+
+.main-2 div:last-child{
+    width: calc(40% - 1em);
+    height: 300px;
+}
+
+.main-2 h3{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.main-2 p{
+    font-size: small;
+    line-height: 1.2rem;
+}
+
+.trova-partner{
+    width: 100%;
+
+}
+
+.main-3 h2{
+    font-size: 2rem;
+    padding-top: 3em;
+}
+
+.main-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-top: 2em;
+}
+
+.box-3{
+    width: calc((100% - 4em) / 3);
+}
+
+.box-3 img{
+    width: 100%;
+}
+
+.box-3 h3{
+    padding-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.box-3 p{
+    font-size: small;
+    line-height: 1.5;
+}
+
+.main-4{
+    padding-top: 8em;
+    padding-bottom: 4em;
+}
+.main-4 h2{
+    font-size: 2rem;
+    width: 500px;
+    padding-bottom: 2em;
+}
+
+.main-5{
+    display: flex;
+}
+
+.container-5-1, .container-5-3{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.university img, .university img{
+    width: 50%;
+}
+
+.university{
+    width: 50%;
+    height: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uni-style-1{
+    background-color: rgb(162, 211, 155) ;
+    border: .8em solid rgb(208, 233, 205);
+}
+
+.uni-style-2{
+    background-color: rgb(98, 9, 43);
+}
+
+.uni-style-3{
+    background-color: rgb(0, 147, 206);
+}
+
+.uni-style-4{
+    background-color: rgb(255, 29, 28);
+}
+
+.uni-style-5{
+    background-color: rgb(213, 0, 32);
+}
+
+.uni-style-6{
+    background-color: rgb(180, 208, 231);
+}
+
+.uni-style-7{
+    background-color: rgb(13, 36, 129);
+}
+
+.uni-style-8{
+    background-color: rgb(255, 216, 48);
+}
+
+.container-5-2{
+    width: calc(100% / 3);
+    padding: 2em;
+    background-color: rgb(246, 246, 246);
+}
+
+.container-5-2 img{
+    width: 50%;
+    padding-bottom: 2em;
+}
+
+.container-5-2 p{
+    font-size: small;
+    line-height: 1.5;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.container-5-2{
+    font-size: small;
+}
+
+.main-6{
+    background-color: rgb(180, 208, 231);
+    padding-bottom: 4em;
+}
+
+.container-6{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 4em;
+}
+
+.container-6 h2{
+    width: 45%;
+    line-height: 1.5;
+    font-size: 1.7rem;
+}
+
+.container-6 a{
+    background-color: white;
+    height: 35px;
+    padding-inline: 2em;
+    padding-top: .5em;
+}
+
+.container-6 a:link, .container-6 a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.container-6 a:hover{
+    text-decoration: underline;
+}
+
+.main-7{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.main-7 h2{
+    font-size: 1.7rem;
+    padding-bottom: 1.5em;
+}
+
+.main-7 hr{
+    width: 100%;
+}
+
+.box-7{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.box-7 div:last-child{
+    padding-right: 3em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+
+.footer-container div{
+    width: calc(100% / 5);
+    font-size: small;
+    line-height: 2em;
+}
+
+.footer-container div h3{
+    padding-bottom: 1em;
+}
+
+.footer-container div ul{
+    list-style: none;
+}
+
+.footer-container div:last-child{
+    padding-top: 4em;
+}
+
+
+.footer-container div:last-child hr{
+    width: 100px;
+}
+
+.footer-container div:last-child div{
+    padding-top: 3em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
